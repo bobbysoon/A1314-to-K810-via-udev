@@ -1,4 +1,8 @@
-# /etc/udev/hwdb.d/65-A1314-to-K810.hwdb
+# place at /etc/udev/hwdb.d/65-A1314-to-K810.hwdb
+# run:
+#  sudo systemd-hwdb update
+#  sudo udevadm trigger
+# relabel A1314's keys with sharpie or what have you
 
 # use apple magic keyboard like it's a logitech k810
 
