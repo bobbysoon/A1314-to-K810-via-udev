@@ -1,0 +1,12 @@
+# /etc/udev/hwdb.d/65-A1314-to-K810.hwdb
+
+# use apple magic keyboard like it's a logitech k810
+
+evdev:input:b0005v05ACp0239e0050*
+ KEYBOARD_KEY_ff0003=leftctrl           # fn > leftctrl
+ KEYBOARD_KEY_700e0=fn                  # leftctrl > fn
+ KEYBOARD_KEY_700e2=leftmeta            # leftalt > leftmeta
+ KEYBOARD_KEY_700e3=leftalt             # leftmeta > leftalt
+ KEYBOARD_KEY_700e7=rightalt            # rightmeta > rightalt
+ KEYBOARD_KEY_700e6=rightctrl           # rightalt > rightctrl
+ KEYBOARD_KEY_c00b8=delete              # eject > delete
