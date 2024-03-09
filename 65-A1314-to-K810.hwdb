@@ -1,5 +1,7 @@
 # use apple magic keyboard like it's a logitech k810
 
+# Caution, although the Fn key's scancode can be re-interpreted, I believe it's modifying of other keys is hardwired
+
 # based on https://askubuntu.com/questions/1019276/fake-key-code-for-remapped-keyboard-keys/1019659#1019659
 
 # sudo mv this to /etc/udev/hwdb.d/65-A1314-to-K810.hwdb
